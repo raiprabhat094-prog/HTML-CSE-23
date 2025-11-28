@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+
+    div p{
+        color: #999;
+    }
+    .box>p{
+        background-color: rgb(19, 93, 114);
+    }
+    div~p{
+        color: #8d1762;
+    }
+    a:hover{
+        color:brown;
+        font-size: 30px;
+    }
+    a:active{
+        color: bisque;
+        font-size: 25px;
+    }
+    a:visited{
+        color: green;
+        font-size: 20px;
+    }
+    a:link{
+        text-decoration: none;
+        font-size: larger;
+    }
+    ul{  list-style: none;
+        display: flex;}
+    ul li{
+        margin: 20px;
+        border-right: 1px solid #999;
+        padding-right: 20px;
+    }
+    ul li:hover{
+        color: royalblue;
+    }
+    ul li:nth-child(5){
+        border-right: 0px;
+    }
+    .para::first-letter{
+       color: brown;
+       font-size: larger;
+    }
+    .para::first-line{
+        content: "Read More";
+        color: teal;
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+    <!-- css combinators -->
+     <div class="box">
+        <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Eos quidem tempora temporibus, adipisci saepe incidunt pariatur
+            repellendus? Inventore nisi totam tempora dolor voluptates commodi
+            laboriosam ipsum natus, beatae dolores quod.
+        </P>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Harum autem, explicabo voluptatibus assumenda fugit rerum dolor,
+                 possimus alias eveniet facere fugiat quis magnam, in sed nisi 
+                 dicta delectus consectetur illo.
+            </p>
+        </div>
+        
+     </div>
+    <div>
+     <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Vel nostrum nemo consequuntur facilis maxime dolorum est veniam,
+          quam officiis! Ex aliquid hic modi quasi repellat! Voluptatum,
+          optio iusto. Minima, modi?
+     </p>  
+    </div>    
+    <!-- css pseudo-classes: style for a special state  -->
+    <a href="#">visit my page!</a>
+    <ul>
+        <li>home</li>
+        <li>service</li>
+        <li>about</li>
+        <li>gallery</li>
+        <li>contact</li>
+    </ul>
+    <!-- css pseudo- elements: style a specific part of an element -->
+     <p id="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Rerum nam repudiandae modi iusto. Sequi quis assumenda 
+        sit vero fugiat recusandae iure ducimus totam, voluptatibus 
+        voluptatum, quasi eum saepe rem sint!
+     </p>
+</body>
+</html>
