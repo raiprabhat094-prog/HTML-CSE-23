@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding:0;
+        }
+        #webpage{
+            width: 1300px;
+            height: 400px;
+            display: flex;
+            box-shadow: 0 4px 8px 0 grey;
+            background-color: beige;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 20px;
+        }
+        #profile{
+            width: 250px;
+            height: 250px;
+            box-shadow: 0 4px 8px 0 gray;
+            margin-left: 10px;
+            border-radius: 10px;
+            background-color: burlywood;
+            text-align: center;
+        }
+
+        #header{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #image{
+            width: 120px;
+            height: 120px;
+            margin-top: 10px;
+            border-radius: 100px;
+
+        }
+          
+  
+            
+            .price:hover {
+                color: salmon;
+
+            }
+                
+.buy-btn:hover {
+                
+                background-color: black;
+                color: bisque;
+            }
+            .price:hover {
+                color: brown;
+
+            }
+        
+
+        @media screen and (max-width:1300px) 
+            {
+                #webpage{
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 700px;
+                    height: 700px;
+                    margin-top: 0px;
+                }
+
+        }
+        @media screen and (max-width:700px)
+        {
+            #webpage{
+                display: flex;
+                    flex-wrap: wrap;
+                    width: 400px;
+                    height: 700px;
+                    margin-top: 0px;
+                    flex-direction: column;
+            }
+            #profile{
+                width: 200px;
+                height: 150px;
+                margin-top: 10px;
+                font-size: 12px;
+            }
+            #image{
+                width: 75px;
+                height: 75px;
+            }
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div id="header"> <h1>Responsive Product Grid</h1></div>
+    <div id="webpage">
+        <div id="profile"><img id="image" src="https://temptindia.com/cdn/shop/files/Artboard1_3adff1c4-550f-4c4d-ab5d-674c74b8e68a.png?v=1727173896&width=600" alt=""><br>
+              <h3>Smart Watch</h3>
+            <p>Fitness tracker with heart rate monitor and Bluetooth.</p>
+            <div class="price" style="padding: 4%; ">₹1,999</div>
+            <button class="buy-btn">Buy Now</button>
+
+        </div>
+        <div id="profile"><img id="image" src="https://m.media-amazon.com/images/I/61RahTQtAqL._SX522_.jpg" alt=""><br>
+                <h3>Wireless Headphones</h3>
+            <p>Noise-cancelling, over-ear comfort with long battery life.</p>
+            <div class="price" style="padding: 4%;">₹2,499</div>
+            <button class="buy-btn">Buy Now</button>
+
+        </div>
+        <div id="profile"><img id="image" src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/6b88cd96-20c5-43c1-8645-38d1aaac0946/PEGASUS+EASYON.png" alt=""><br>
+                <h3>Running Shoes</h3>
+            <p>Lightweight breathable shoes for men and women.</p>
+            <div class="price" style="padding: 4%;">₹1,299</div>
+            <button class="buy-btn">Buy Now</button>
+
+        </div>
+        <div id="profile"><img id="image" src="https://carrypro.in/cdn/shop/files/White1_1.jpg?v=1711703956&width=800" alt=""><br>
+                <h3>Travel Backpack</h3>
+            <p>Water-resistant bag with multiple compartments.</p>
+            <div class="price"
+            style="padding:4%">₹899</div>
+            <button class="buy-btn">Buy Now</button>
+
+        </div>
+    </div>
+</body>
+</html>

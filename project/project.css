@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+   font-family: Arial;
+    box-sizing: border-box;
+}
+
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+
+  -webkit-font-smoothing:antialiased;
+}
+
+
+.navbar{
+    height: 90px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+  
+  padding:  20px;
+    width: 240px;
+    height: 70px;
+}
+.logo{
+  background-image: url(kindpng_172246.png);
+   height: 60px;
+   width: 100%;
+   background-size: cover;
+}
+.border{
+  border: 2px solid transparent;
+  
+}
+.border:hover{
+    padding: 10px;
+    border: 2px solid white;
+}
+
+       /* search bar css */
+
+.nav-search{
+  display: flex;
+  width:  1100px;
+  height: 60px;
+   justify-content: space-evenly;
+}
+
+
+.search{
+    background-color: #f3f3f3;
+    width: 90px;
+    height: 60px;
+    font-size: 20px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+   border: none;
+
+}
+.search-box{
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    padding-left: 10px;
+    border: none;
+}
+.search-btn{
+    font-size: 25px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color:  rgb(255, 193, 79);
+}
+
+  /* account section css */
+  
+  span{
+    font-size: 1.2rem;
+  }
+  
+  .nav-second{
+    font-size: 1.34rem;
+    font-weight: 700;
+  }
+
+  /* cart */
+.cart i {
+    font-size: 50px;
+
+}
+
+.cart 
+{
+    font-size: 22px;
+    font-weight: 700;
+}
+ 
+
+
+
+
+
+
+ /*  panel  */
+
+   .panel{
+    height: 60px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+
+   
+    .panel-item{
+      justify-content: start;
+      font-size: 22px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+.hero {
+    
+   background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img24/Beauty/GW/AugART/Updated/new/final/UBS/Dec/265._CB776632285_.jpg');
+   width: 100%;
+   height: 390px; 
+   background-color: #eaf4dc; 
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+  /* faltu */
+/* .amazon-bg {
+  min-height: 1600px;
+  background: linear-gradient(
+    to bottom,
+    #eef8d8 0%,
+    #e6f3cf 20%,
+    #dff0c8 35%,
+    #e8efe6 55%,
+    #eef1f1 70%,
+    #f4f4f4 85%,
+    #ffffff 100%
+  );
+} */
+
+
+
+
+/* .amazon-bg {
+  min-height: 1600px; */
+
+  /* Pull gradient up so it touches hero */
+  /* margin-top: -10px; */
+  /* padding-top: 30px; */
+
+/* background: linear-gradient(
+    to bottom, */
+    /* #e0f5d9 0%,        pastel green at top */
+    /* #dcf4de, */
+    /* #dde5e5 35%,       darker grey than before
+    #cfd6d7 60%,       medium grey transition
+    #e9ecec 80%,       softer grey near bottom
+    #ffffff 100%       white at bottom */
+
+
+  /* );
+  -webkit-font-smoothing:antialiased;
+
+
+} */
+
+
+
+
+
+
+.hero {
+      position: relative;      /* IMPORTANT */
+      height: 900px;
+      width: 100%;
+      overflow: hidden;        
+    }
+
+    /* Background Image */
+    .hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Gradient Overlay (Amazon Style) */
+   .gradient {
+  position: absolute;
+  inset: 0;
+
+  /* Amazon-style bottom fade */
+  background: linear-gradient(
+    to bottom,
+    rgba(177, 18, 38, 0) 0%,     /* transparent at top */
+    rgba(177, 18, 38, 0) 40%,    /* image fully visible */
+    rgba(230, 230, 230, 0.7) 75%,/* start fading */
+    #f5f5f5 100%                /* page background */
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* shop */
+      .shop{
+         display: flex;
+         justify-content: space-evenly;
+         /* background-color: #daf9d3; */
+   
+      }
+
+    .box{
+      border: 2px solid black;
+      height: 640px;
+      width: 23.2%;
+      background-color: #f8fcf9;
+      
+    }
+
+
+     .box1 {
+            width: 527px;
+            height: 640px;
+            padding: 15px;
+            margin-bottom: 35px;
+            border: 1px solid white;
+            background: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .box2 {
+            /* width: 390px;
+            height: 580px; */
+            padding: 15px;
+            border: 1px solid white;
+            background: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .box3 {
+            width: 533px;
+            /* height: 640px;  */
+            
+            padding: 15px;
+            border: 1px solid white ;
+            background: #fff;
+            font-family: Arial, sans-serif;
+        }
+        
+        .box4 {
+            /* width: 390px;
+            height: 580px; */
+            padding: 15px;
+            border: 1px solid white;
+            background: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+
+
+        .box h2 {
+             height: 70px;
+             margin-top: 5px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        /* 2×2 image layout */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 18px;
+        }
+
+        .container img {
+            
+            height: 220px;   
+
+             width: 100%;
+             aspect-ratio: 1 / 1;
+             object-fit: contain;
+             border-radius: 4px;
+        }
+
+         .as {  
+            
+            color: #1a73e8;
+            text-decoration: none;
+            font-size: 19px;
+        }
+
+
+
+        /* ---------------------- */
+        /* AMAZON STYLE SCROLLER */
+        /* ---------------------- */
+        .scroll-box  {
+            width: 100%;
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 25px;
+            margin-top: 4px;
+            margin-bottom: 38px;
+            border: 1px solid #ddd;
+        }
+
+        .scroll-title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .scroll-container {
+            display: flex;
+            overflow-x: auto;
+            gap: 60px;
+            padding-bottom: 15px;
+            scroll-behavior: smooth;
+        }
+
+        .scroll-item img {
+            height: 350px;
+            width: auto;
+            object-fit: contain;
+            background: #fff;
+        }
+
+        /* Hide scrollbar (optional) */
+        .scroll-container::-webkit-scrollbar {
+            height: 1px;
+        }
+        .scroll-container::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border-radius: 10px;
+        }
+
+        
+
+
+
+
+
+
+      /* footer */
+       footer{
+        margin-top: 20px;
+       }
+
+
+
+    .foot1{
+     
+      background-color: #31465c ;
+      color: white;
+      height: 72px;
+      width: 100%;
+      text-align: center;
+      padding-top: 15px;
+      align-items: center;
+      font-size: 20px;
+      cursor: pointer;
+    }
+      
+
+    .foot2{
+         
+      background-color: #222c3f ;
+      color: white;
+      height: 550px;
+       
+      display: flex;
+      justify-content: space-evenly;
+    }
+    
+    ul{
+   
+      margin-top: 70px;
+    }
+
+    ul a{
+      
+       cursor: pointer;
+      display: block;
+      margin-top: 15px;
+      font-size: 1.4rem;
+      
+    }
+
+
+    .foot3{
+      background-color: #222c3f ;
+      color: white;
+      border-top: 0.1px solid rgb(87, 87, 87);
+      height: 150px;
+      width: 100%;
+       display: flex;
+       justify-content: center;
+        align-items: center;
+    }
+
+    
+  .logo2{
+     background-image: url(kindpng_172246.png);
+     height: 37px;
+    width: 125px;
+    background-size: cover;
+   
+
+
+
+  }
+
+
+  .foot4{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    text-align: center;
+    font-size: 0.9rem;
+
+  }
+
+
+
+  .pages{
+   
+    padding-top: 29px;
+  }
+  
+  .pages a{
+    font-size: 1.1rem;
+    color: #ced4dc;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+
+  .copy{
+    font-size: 1.1rem;
+    color: #ced4dc;
+    padding-top: 25px;
+    margin-bottom: 40px;
+
+  }
